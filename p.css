@@ -1,0 +1,148 @@
+/*body{
+    background: #000000d3 url(img/bac.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed  ;
+}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+body {
+    background-color: #ffffff;
+    background-image: linear-gradient(to bottom,
+      #29a2c7 0%,
+      #0a2a5cd8 50%,
+      #000000 100%);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    background-size: cover;
+    background-attachment: fixed 
+   /* align-items: center;
+    justify-content: center;*/
+
+    
+  
+  }
+  .container {
+    width:100%;
+    padding: 0px;
+  }
+  
+  .firstdiv{
+      width: 100%;
+      height: 50px;
+     background-color: rgba(0, 0, 0, 0.623);
+      margin: 10px auto;
+      border-radius: 40px;
+      box-shadow: 2px 3px 5px rgb(15, 15, 15);
+    }
+    .Transction{
+        float: left;
+        margin: 15px 13px;
+        color: #ffffff;
+      }
+      .Transction2{
+        float: right;
+        margin: 5px 10px;
+        color: #ffffff;
+
+        
+      }
+      .Transction2 i:first-child{
+          background-color: rgb(65, 78, 134);
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          text-align: center;
+         padding-top: 10px;
+         cursor: pointer;          
+      }
+      .Transction2 i:nth-child(2)
+      {
+    background-color: rgba(62, 112, 66, 0.904);
+          border-radius: 50%;  
+           width: 40px;
+          height: 40px;
+          text-align: center;
+          padding-top: 10px;
+          cursor: pointer;
+      }
+      form{
+        margin-left: 20px;
+        margin-right: 10px;
+        padding-top: 10px;
+        display: inline-block;
+        font-size: medium;
+        
+    }
+      .forms{
+    text-align: center;
+    }
+    form {
+        text-align: left;
+        
+    }
+
+    
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #779fb9;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(235, 235, 235);
+}
+tr:nth-child(odd) {
+  background-color: #bdbdbd;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 12px;
+  height: 25px;
+}
+input[type=text]:focus {
+  border: 2px solid rgb(129, 136, 155);
+  border-radius: 12px;
+  outline: none;
+}
+#add:active{
+  transform: scale(1.5);
+}
